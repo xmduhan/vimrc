@@ -23,8 +23,12 @@ Plugin 'gmarik/Vundle.vim'
 "
 
 Plugin 'flazz/vim-colorschemes'
-Plugin 'morhetz/gruvbox'
-colorscheme zen
+colorscheme molokai
+
+" Plugin 'morhetz/gruvbox'
+" set background=dark
+" source ~/.vim/bundle/gruvbox/colors/gruvbox.vim
+
 
 call vundle#end()
 filetype plugin indent on
