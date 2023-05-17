@@ -1,1 +1,1 @@
-echo 'source ~/.config/vimrc/main.vim' > ~/.vimrc
+echo 'source ~/.vim/vimrc/main.vim' > ~/.vimrc
