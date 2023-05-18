@@ -53,3 +53,6 @@ source ~/.vim/vimrc/indentation.vim
 
 let python_highlight_all=1
 syntax on
+
+""" kill redundant space
+noremap gk<space> :%s/\s\+$//e<CR>
