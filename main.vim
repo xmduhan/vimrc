@@ -1,22 +1,32 @@
 """ encoding
 set encoding=utf-8
 
-
 """ auto indent
 set ai
-
 
 """ line number
 set number
 
-
 """ cursor line highlight
 set cursorline
-
 
 """ plugins
 source ~/.vim/vimrc/plugins.vim
 
+""" enable incremental search
+set incsearch  
+
+""" enable highlight search
+set hlsearch   
+
+""" set terminal size
+set termwinsize=12x0   
+
+""" always split below
+set splitbelow         
+
+""" enable mouse drag on window splits
+set mouse=n
 
 """ config netrw
 let g:netrw_banner = 0

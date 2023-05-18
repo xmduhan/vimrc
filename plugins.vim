@@ -24,7 +24,16 @@ Plugin 'gmarik/Vundle.vim'
 " source ~/.vim/vimrc/plugins/vim-flake8.vim
 
 """ nerdtree
-" source ~/.vim/vimrc/plugins/nerdtree.vim
+source ~/.vim/vimrc/plugins/nerdtree.vim
+
+""" vim-polyglot
+source ~/.vim/vimrc/plugins/vim-polyglot.vim
+
+""" quick-scope
+source ~/.vim/vimrc/plugins/quick-scope.vim
+
+""" vim-signature
+source ~/.vim/vimrc/plugins/vim-signature.vim
 
 """ colorschemes
 " source ~/.vim/vimrc/colorschemes.vim
