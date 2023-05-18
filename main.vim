@@ -1,17 +1,22 @@
 """ encoding
 set encoding=utf-8
 
+
 """ auto indent
 set ai
+
 
 """ line number
 set number
 
+
 """ cursor line highlight
 set cursorline
 
+
 """ plugins
 source ~/.vim/vimrc/plugins.vim
+
 
 """ config netrw
 let g:netrw_banner = 0
@@ -23,17 +28,22 @@ let g:netrw_liststyle = 3
 " let g:netrw_altv = 1
 
 
-
 """ split navigations
 " nnoremap <C-J> <C-W><C-J>
 " nnoremap <C-K> <C-W><C-K>
 " nnoremap <C-L> <C-W><C-L>
 " nnoremap <C-H> <C-W><C-H>
 
+
 """ enable folding
 set foldmethod=indent
 set foldlevel=99
 " nnoremap <space> za
 
+
 """ indentation
 " source ~/.vim/vimrc/indentation.vim
+
+
+let python_highlight_all=1
+syntax on
