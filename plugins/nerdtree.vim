@@ -23,4 +23,4 @@ let NERDTreeWinPos = "left"
 let NERDTreeWinSize = 31        
 
 nmap <F2> :NERDTreeToggle<CR>
-let g:nerdtree_tabs_open_on_console_startup=1
+let g:nerdtree_tabs_open_on_console_startup=0
