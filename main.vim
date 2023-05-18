@@ -22,15 +22,7 @@ let g:netrw_liststyle = 3
 " let g:netrw_list_hide = '\(^\|\s\s\)\zs\.\S\+'
 " let g:netrw_altv = 1
 
-""" syntastic
-execute pathogen#infect()
-set statusline+=%#warningmsg#
-set statusline+=%{SyntasticStatuslineFlag()}
-set statusline+=%*
-let g:syntastic_always_populate_loc_list = 1
-let g:syntastic_auto_loc_list = 1
-let g:syntastic_check_on_open = 1
-let g:syntastic_check_on_wq = 0
+
 
 """ split navigations
 " nnoremap <C-J> <C-W><C-J>
@@ -44,6 +36,4 @@ set foldlevel=99
 " nnoremap <space> za
 
 """ indentation
-source ~/.vim/vimrc/indentation.vim
-
-
+" source ~/.vim/vimrc/indentation.vim

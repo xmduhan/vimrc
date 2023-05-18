@@ -6,15 +6,22 @@ call vundle#begin()
 Plugin 'gmarik/Vundle.vim'
 
 """ YouCompleteMe
-" source ~/.vim/vimrc/plugins/YouCompleteMe.vim
+source ~/.vim/vimrc/plugins/YouCompleteMe.vim
 
+""" ultisnips
+source ~/.vim/vimrc/plugins/ultisnips.vim
 
 """ xmledit
-" source ~/.vim/vimrc/plugins/xmledit.vim
+source ~/.vim/vimrc/plugins/xmledit.vim
 
 """ SimpyFold
-Plugin 'tmhedberg/SimpylFold'
-let g:SimpylFold_docstring_preview=1
+source ~/.vim/vimrc/plugins/SimpyFold.vim
+
+""" syntastic
+source ~/.vim/vimrc/plugins/syntastic.vim
+
+""" vim-flake8
+source ~/.vim/vimrc/plugins/vim-flake8.vim
 
 " colorschemes
 source ~/.vim/vimrc/colorschemes.vim
