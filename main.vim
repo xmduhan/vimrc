@@ -42,8 +42,8 @@ set foldlevel=99
 
 
 """ indentation
-" source ~/.vim/vimrc/indentation.vim
+source ~/.vim/vimrc/indentation.vim
 
 
 let python_highlight_all=1
-syntax on
+" syntax on
