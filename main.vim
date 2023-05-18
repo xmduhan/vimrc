@@ -1,9 +1,49 @@
+""" encoding
+set encoding=utf-8
+
+""" auto indent
 set ai
 
-" Python语言缩进
-autocmd FileType python set sw=4 ts=4 sts=4
+""" line number
+set number
 
-" 光标行高亮
+""" cursor line highlight
 set cursorline
 
+""" plugins
 source ~/.vim/vimrc/plugins.vim
+
+""" config netrw
+let g:netrw_banner = 0
+let g:netrw_browse_split = 3 " new tab
+let g:netrw_liststyle = 3
+" let g:netrw_keepdir = 0
+" let g:netrw_winsize = 25
+" let g:netrw_list_hide = '\(^\|\s\s\)\zs\.\S\+'
+" let g:netrw_altv = 1
+
+""" syntastic
+execute pathogen#infect()
+set statusline+=%#warningmsg#
+set statusline+=%{SyntasticStatuslineFlag()}
+set statusline+=%*
+let g:syntastic_always_populate_loc_list = 1
+let g:syntastic_auto_loc_list = 1
+let g:syntastic_check_on_open = 1
+let g:syntastic_check_on_wq = 0
+
+""" split navigations
+" nnoremap <C-J> <C-W><C-J>
+" nnoremap <C-K> <C-W><C-K>
+" nnoremap <C-L> <C-W><C-L>
+" nnoremap <C-H> <C-W><C-H>
+
+""" enable folding
+set foldmethod=indent
+set foldlevel=99
+" nnoremap <space> za
+
+""" indentation
+source ~/.vim/vimrc/indentation.vim
+
+

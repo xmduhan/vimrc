@@ -1,0 +1,1 @@
+Plugin 'sukima/xmledit'
