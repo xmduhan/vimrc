@@ -35,8 +35,8 @@ source ~/.vim/vimrc/plugins/quick-scope.vim
 """ vim-signature
 source ~/.vim/vimrc/plugins/vim-signature.vim
 
-""" vim-ctrlspace
-source ~/.vim/vimrc/plugins/vim-ctrlspace.vim
+""" tagbar
+source ~/.vim/vimrc/plugins/tagbar.vim
 
 """ colorschemes
 " source ~/.vim/vimrc/colorschemes.vim
