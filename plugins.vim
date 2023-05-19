@@ -5,6 +5,9 @@ call vundle#begin()
 
 Plugin 'gmarik/Vundle.vim'
 
+""" supertab
+source ~/.vim/vimrc/plugins/supertab.vim
+
 """ YouCompleteMe
 source ~/.vim/vimrc/plugins/YouCompleteMe.vim
 

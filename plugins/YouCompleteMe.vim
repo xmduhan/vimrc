@@ -23,12 +23,20 @@ let g:ycm_complete_in_strings = 1
 " let g:ycm_enable_diagnostic_highlighting = 1
 
 """ Disable auto trigger
-let g:ycm_auto_trigger = 0
+let g:ycm_auto_trigger = 1
 
 """ Disable auto trigger 
-" let g:ycm_auto_hover = ''
+let g:ycm_auto_hover = ''
 
 """ Go go define
-nnoremap <space>jd :YcmCompleter GoToDefinition<CR>
-" nnoremap <leader>t <plug>(YCMHover)
+noremap <leader>def :YcmCompleter GoToDefinition<CR>
 
+""" Get doc
+noremap <leader>doc :YcmCompleter GetDoc<CR><C-W><C-J>
+
+""" Get doc
+noremap <leader>type :YcmCompleter GetType<CR>
+
+""" 
+let g:ycm_key_list_select_completion = ['<C-n>', '<Down>']
+let g:ycm_key_list_previous_completion = ['<C-p>', '<Up>']

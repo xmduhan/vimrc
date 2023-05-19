@@ -10,6 +10,10 @@ set number
 """ cursor line highlight
 set cursorline
 
+""" set leader key
+" let mapleader = ','
+let mapleader = "\<space>"
+
 """ plugins
 source ~/.vim/vimrc/plugins.vim
 
@@ -58,10 +62,6 @@ source ~/.vim/vimrc/indentation.vim
 
 let python_highlight_all=1
 syntax on
-
-""" set leader key
-" let mapleader = ','
-let mapleader = "\<space>"
 
 """ kill redundant space
 noremap <leader>d<space> :%s/\s\+$//e<CR>
