@@ -26,7 +26,7 @@ set termwinsize=100x0
 set splitbelow         
 
 """ enable mouse drag on window splits
-set mouse=n
+" set mouse=n
 
 """ config netrw
 let g:netrw_banner = 0
@@ -45,15 +45,13 @@ nnoremap <C-H> <C-W><C-H>
 
 """ tab navigations
 nnoremap <C-T> :tabnew<CR>
-nnoremap <C-N> gt
-nnoremap <C-P> gT
-
-
+" nnoremap <C-N> gt
+" nnoremap <C-P> gT
 
 """ enable folding
 set foldmethod=indent
 set foldlevel=99
-nnoremap <space> za
+nnoremap <space><space> za
 
 """ indentation
 source ~/.vim/vimrc/indentation.vim
@@ -61,5 +59,13 @@ source ~/.vim/vimrc/indentation.vim
 let python_highlight_all=1
 syntax on
 
+""" set leader key
+" let mapleader = ','
+let mapleader = "\<space>"
+
 """ kill redundant space
-noremap gk<space> :%s/\s\+$//e<CR>
+noremap <leader>d<space> :%s/\s\+$//e<CR>
+
+""" back to buffer switch to 
+noremap <leader>'' :b#<CR>
+

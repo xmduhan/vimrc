@@ -12,13 +12,13 @@ source ~/.vim/vimrc/plugins/YouCompleteMe.vim
 source ~/.vim/vimrc/plugins/ultisnips.vim
 
 """ xmledit
-source ~/.vim/vimrc/plugins/xmledit.vim
+" source ~/.vim/vimrc/plugins/xmledit.vim
 
 """ SimpyFold
 source ~/.vim/vimrc/plugins/SimpyFold.vim
 
 """ syntastic
-source ~/.vim/vimrc/plugins/syntastic.vim
+" source ~/.vim/vimrc/plugins/syntastic.vim
 
 """ vim-flake8
 source ~/.vim/vimrc/plugins/vim-flake8.vim
