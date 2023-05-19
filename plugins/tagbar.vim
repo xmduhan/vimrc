@@ -1,2 +1,2 @@
 Plugin 'preservim/tagbar'
-nmap <F9> :TagbarToggle<CR>
+nmap <F12> :TagbarToggle<CR>

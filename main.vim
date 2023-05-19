@@ -20,7 +20,7 @@ set incsearch
 set hlsearch   
 
 """ set terminal size
-set termwinsize=12x0   
+set termwinsize=100x0   
 
 """ always split below
 set splitbelow         
@@ -42,6 +42,13 @@ nnoremap <C-J> <C-W><C-J>
 nnoremap <C-K> <C-W><C-K>
 nnoremap <C-L> <C-W><C-L>
 nnoremap <C-H> <C-W><C-H>
+
+""" tab navigations
+nnoremap <C-T> :tabnew<CR>
+nnoremap <C-N> gt
+nnoremap <C-P> gT
+
+
 
 """ enable folding
 set foldmethod=indent
