@@ -69,6 +69,12 @@ nnoremap <leader>d<space> :%s/\s\+$//e<CR>
 """ back to buffer switch to 
 nnoremap <leader>'' :b#<CR>
 
+""" close current buffer
+nnoremap <leader>q :q<CR>
+
+""" close others buffer
+" nnoremap <leader>o :%bd|e#<CR>
+
 """ buffer switch
 nnoremap <C-N> :bn<CR>
 nnoremap <C-P> :bp<CR>
