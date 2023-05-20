@@ -64,8 +64,16 @@ let python_highlight_all=1
 syntax on
 
 """ kill redundant space
-noremap <leader>d<space> :%s/\s\+$//e<CR>
+nnoremap <leader>d<space> :%s/\s\+$//e<CR>
 
 """ back to buffer switch to 
-noremap <leader>'' :b#<CR>
+nnoremap <leader>'' :b#<CR>
 
+""" buffer switch
+nnoremap <C-N> :bn<CR>
+nnoremap <C-P> :bp<CR>
+
+nnoremap <C-H> B
+nnoremap <C-L> W
+nnoremap <C-J> 12j
+nnoremap <C-K> 12k

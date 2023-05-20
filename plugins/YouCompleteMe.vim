@@ -34,9 +34,9 @@ noremap <leader>def :YcmCompleter GoToDefinition<CR>
 """ Get doc
 noremap <leader>doc :YcmCompleter GetDoc<CR><C-W><C-J>
 
-""" Get doc
+""" Get type
 noremap <leader>type :YcmCompleter GetType<CR>
 
 """ 
-let g:ycm_key_list_select_completion = ['<C-n>', '<Down>']
-let g:ycm_key_list_previous_completion = ['<C-p>', '<Up>']
+let g:ycm_key_list_select_completion = ['<C-j>']
+let g:ycm_key_list_previous_completion = ['<C-k>']
