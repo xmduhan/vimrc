@@ -42,10 +42,10 @@ let g:netrw_liststyle = 3
 " let g:netrw_altv = 1
 
 """ split navigations
-nnoremap <C-J> <C-W><C-J>
-nnoremap <C-K> <C-W><C-K>
-nnoremap <C-L> <C-W><C-L>
-nnoremap <C-H> <C-W><C-H>
+" nnoremap <C-J> <C-W><C-J>
+" nnoremap <C-K> <C-W><C-K>
+" nnoremap <C-L> <C-W><C-L>
+" nnoremap <C-H> <C-W><C-H>
 
 """ tab navigations
 nnoremap <C-T> :tabnew<CR>
@@ -73,6 +73,7 @@ nnoremap <leader>'' :b#<CR>
 nnoremap <C-N> :bn<CR>
 nnoremap <C-P> :bp<CR>
 
+""" move cursor faster
 nnoremap <C-H> B
 nnoremap <C-L> W
 nnoremap <C-J> 12j
