@@ -70,7 +70,8 @@ nnoremap <leader>d<space> :%s/\s\+$//e<CR>
 nnoremap <leader>'' :b#<CR>
 
 """ close current buffer
-nnoremap <leader>q :q<CR>
+" nnoremap <leader>q :q<CR>
+nnoremap <leader>q :bp<bar>sp<bar>bn<bar>bd<CR>
 
 """ close others buffer
 " nnoremap <leader>o :%bd|e#<CR>
