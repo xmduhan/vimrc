@@ -85,3 +85,6 @@ nnoremap <C-H> B
 nnoremap <C-L> W
 nnoremap <C-J> 12j
 nnoremap <C-K> 12k
+
+""" faster save
+nnoremap <C-S> :w<CR>
